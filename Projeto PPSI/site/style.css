@@ -12,29 +12,48 @@ header {
     height: 20%;
 }
 
-/*essa linha ajusta o conteúdo*/
-.conteiner {
-    display: flex;
-    align-items: flex-start;
-    gap: 1px;
-    background-color: blue;
+.produto img {
+    width: 50%;
+    height: auto;
 }
 
 img {
-    width: 60%;
-    height: 60%;
+    border: 1px solid red;
 }
 
-h2 {
-    margin-left: 2px;
-    color: aliceblue;
+.info {
+    border: 1px solid red;
+    font-size: 20px;
+} 
+
+.celular .info {
+    text-align: right;
+    color: #F8FAFC;
 }
 
-.texto p {
-    max-width: 100%;
-    color: aliceblue;
+.notebook .info {
+    text-align: left;
 }
 
 button {
-    background-color: red   ;
+    background-color: red;
+}
+
+.celular {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1px;
+
+    background-color: #0F172A;
+}
+
+.notebook {
+    display: flex;
+    align-items: flex-start;
+    gap: 1px;
+    justify-content: center;
+    padding: 0 5%;
+
+    background-color: #F8FAFC;
 }
