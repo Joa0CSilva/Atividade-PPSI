@@ -1,4 +1,4 @@
-# 📱 connectX
+# 📱 ConnectX
 
 > Um site moderno, responsivo e intuitivo para uma loja de eletrônicos no geral, focado na melhor experiência de navegação e compra para o usuário.
 
