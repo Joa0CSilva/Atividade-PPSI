@@ -89,3 +89,11 @@ button {
     padding: 5px 10px;
     color: #F8FAFC;
 }
+
+#produtos {
+    padding: 30px 50px;
+}
+
+#produtos h2 {
+    text-align: center;
+}
