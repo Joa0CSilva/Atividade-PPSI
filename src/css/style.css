@@ -1,0 +1,91 @@
+/*Esse comando serve para mudar a margem do html todo*/
+body {
+    margin: 0;
+}
+
+header {
+    background-color: aqua;
+}
+
+#logo {
+    width: 20%;
+    height: 20%;
+}
+
+.produto img {
+    width: 50%;
+    height: auto;
+}
+
+/*
+img {
+    border: 1px solid red;
+}
+*/
+
+/*
+.info {
+    border: 1px solid red;
+    font-size: 20px;
+}
+*/
+
+.celular .info {
+    text-align: right;
+    color: #F8FAFC;
+}
+
+.notebook .info {
+    text-align: left;
+}
+
+button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.celular {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1px;
+
+    background-color: #0F172A;
+    padding: 30px 0;
+}
+
+.notebook {
+    display: flex;
+    align-items: flex-start;
+    gap: 1px;
+    justify-content: center;
+    padding: 0 5%;
+
+    background-color: #F8FAFC;
+    padding: 30px 0;
+}
+
+.eletronico {
+    text-align: right;
+    color: #F8FAFC;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1px;
+
+    background-color: #0F172A;
+    padding: 30px 0;
+}
+
+#sobre {
+    padding: 30px 50px;
+}
+
+#sobre h2 {
+    text-align: center;
+    background-color: #0F172A;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: #F8FAFC;
+}
