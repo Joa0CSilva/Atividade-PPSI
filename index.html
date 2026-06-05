@@ -1,90 +1,110 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="./src/css/style.css">
-    <title>Projeto</title>
-  </head>
-  <body>
-    <header>
-      <img
-        src="./src/icon/logo.png"
-        alt="logo"
-        id="logo"/>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <main>
-      <section class="produto">
-        <section class="celular">
-          <img
-            src="https://brmotorolanew.vtexassets.com/arquivos/ids/171286/frente-smartphone-moto-g15-grafite-vegan-leather.png?v=638797438263200000"
-            alt="celular"
-            id="imagem-celular"/>
+  <link rel="stylesheet" href="./src/css/style.css">
 
-          <div class="info">
-            <h2>Celulares</h2>
-            <p>
-              ofjdhgsbkdkjghsf<br/>
-              dguifiksadygfkdh<br/>
-              asdiygaiysgfoih
-            </p>
+  <title>ConnectX</title>
+</head>
 
-            <button>Ver Mais</button>
-          </div>
-        </section>
+<body>
 
-        <section class="notebook">
-          <div class="info">
-            <h2>Notebook</h2>
-            <p>
-              sadjuihkjsdfjhkd<br/>
-              dfjkskjhfjhskdjds<br/>
-              sdhkfgkhsfdkd
-            </p>
+  <header>
+    <img
+      src="./src/images/logo.png"
+      alt="ConnectX"
+      id="logo">
 
-            <button>Ver Mais</button>
-          </div>
+    <nav>
+      <a href="./src/pages/sobre.html">Sobre</a>
+      <a href="./src/pages/produtos.html">Produtos</a>
+      <a href="./src/pages/contato.html">Contato</a>
+    </nav>
+  </header>
 
-          <img
-            src="https://benchpromos.com.br/_next/image?url=https%3A%2F%2Ft17208.vtexassets.com%2Farquivos%2Fids%2F163535-1200-1200%3Fv%3D638346429562770000%26width%3D1200%26height%3D1200%26aspect%3Dtrue&w=3840&q=75"
-            alt="notebook"
-            id="imagem-notebook"/>
-        </section>
+  <main>
 
-        <section class="eletronico">
-          <img
-            src="https://aafa7ada.delivery.rocketcdn.me/wp-content/uploads/2024/02/produtos-variados-apple-xiaomi-jbl-amazon-768x484.png"
-            alt="notebook"
-            id="imagem-eletronicos"/>
+    <section class="produto">
 
-          <div class="info">
-            <h2>Eletrônicos</h2>
-            <p>
-              dhfjhsdiufdhgs<br/>
-              hdsgfidsgfdsif<br/>
-              dsfijhsdhgfsdi
-            </p>
+      <section class="card-produto celular">
+        <img
+          src="https://brmotorolanew.vtexassets.com/arquivos/ids/171286/frente-smartphone-moto-g15-grafite-vegan-leather.png?v=638797438263200000"
+          alt="Celular">
 
-            <button>Ver Mais</button>
-          </div>
-        </section>
+        <div class="info">
+          <h2>Celulares</h2>
+
+          <p>
+            ofjdhgsbkdkjghsf<br>
+            dguifiksadygfkdh<br>
+            asdiygaiysgfoih
+          </p>
+
+          <button class="botao-claro">Ver Mais</button>
+        </div>
       </section>
 
-      <div id="sobre">
-      <h2>Sobre</h2>
-      <p>
-        Somos uma loja especializada em eletrônicos e tecnologia, oferecendo
-        produtos de qualidade, atendimento personalizado e os melhores preços do
-        mercado. Nosso objetivo é levar inovação e praticidade para nossos
-        clientes com confiança e segurança.
-      </p>
-      </div>
+      <section class="card-produto notebook">
+        <div class="info">
+          <h2>Notebook</h2>
 
-      <div id="produtos">
-      <h2>Produtos</h2>
-      <p>sdifhgsiduhfudsih</p>
-      </div>
-    </main>
-  </body>
+          <p>
+            sadjuihkjsdfjhkd<br>
+            dfjkskjhfjhskdjds<br>
+            sdhkfgkhsfdkd
+          </p>
+
+          <button class="botao-escuro">Ver Mais</button>
+        </div>
+
+        <img
+          src="https://benchpromos.com.br/_next/image?url=https%3A%2F%2Ft17208.vtexassets.com%2Farquivos%2Fids%2F163535-1200-1200%3Fv%3D638346429562770000%26width%3D1200%26height%3D1200%26aspect%3Dtrue&w=3840&q=75"
+          alt="Notebook">
+      </section>
+
+      <section class="card-produto eletronico">
+        <img
+          src="https://aafa7ada.delivery.rocketcdn.me/wp-content/uploads/2024/02/produtos-variados-apple-xiaomi-jbl-amazon-768x484.png"
+          alt="Eletrônicos">
+
+        <div class="info">
+          <h2>Eletrônicos</h2>
+
+          <p>
+            dhfjhsdiufdhgs<br>
+            hdsgfidsgfdsif<br>
+            dsfijhsdhgfsdi
+          </p>
+
+          <button class="botao-claro">Ver Mais</button>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="sobre">
+      <h2 class="titulo-secao">Sobre</h2>
+
+      <p>
+        Somos uma loja especializada em eletrônicos e tecnologia,
+        oferecendo produtos de qualidade, atendimento personalizado
+        e os melhores preços do mercado.
+      </p>
+    </section>
+
+    <section id="produtos">
+      <h2 class="titulo-secao">Produtos</h2>
+
+      <p>Confira alguns dos nossos produtos em destaque.</p>
+
+      <img
+        src="./src/images/teste.jpg"
+        alt="Produtos">
+    </section>
+
+  </main>
+
+</body>
 </html>
