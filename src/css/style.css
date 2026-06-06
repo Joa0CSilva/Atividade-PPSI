@@ -55,8 +55,10 @@ nav a:hover {
 /* Produtos principais */
 
 .produto img {
-    width: 50%;
+    width: 45%;
     height: auto;
+
+    margin-top: 30px;
 }
 
 .card-produto {
@@ -69,7 +71,7 @@ nav a:hover {
 }
 
 .celular,
-.eletronico {
+.outros {
     background-color: #0F172A;
     color: #F8FAFC;
 }
@@ -79,7 +81,7 @@ nav a:hover {
 }
 
 .celular .info,
-.eletronico .info {
+.outros .info {
     text-align: right;
 }
 
@@ -87,15 +89,20 @@ nav a:hover {
     text-align: left;
 }
 
+.info {
+    width: 45%;
+}
+
 /* Botão */
 
 button {
-    background-color: red;
     border: none;
     border-radius: 5px;
 
     padding: 8px 15px;
     cursor: pointer;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .botao-claro {
@@ -134,14 +141,34 @@ button {
     text-align: center;
 }
 
-#produtos img {
-    width: 90%;
+.produtos-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.produto-card {
+    background-color: #0F172A;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.produto-card p {
+    color: #F8FAFC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.produto-card img {
+    width: 100%;
+    max-width: 180px;
     height: auto;
+}
 
-    border-radius: 20px;
-
-    display: block;
-    margin: 0 auto;
+.produto-card h3 {
+    margin: 10px 0 5px;
+    color: #F8FAFC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*Contato*/
