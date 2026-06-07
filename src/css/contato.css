@@ -52,7 +52,6 @@ button {
     border-radius: 5px;
 
     padding: 8px 15px;
-    cursor: pointer;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
@@ -144,3 +143,21 @@ label {
     color: #F8FAFC;
     display: block;
 }
+
+
+
+
+/* Área Media Queries */
+
+/* Para deixar uma animação no botão
+#button:hover {
+    background-color: #CBD5E1;
+    transform: scale(1.05);
+}
+*/
+
+/* Trocar o ponteiro quando passa pelo botão
+#button {
+    cursor: pointer;
+}
+*/
