@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./src/css/style.css"/>
     <link rel="icon" type="image/png" href="./src/icon/favicon.png">
 
+    <script src="./src/javascript/script.js"></script>
+
     <title>ConnectX</title>
   </head>
 
@@ -116,24 +118,28 @@
       <section id="contato">
         <h2 class="titulo">Contato</h2>
 
-        <form method="post">
-          <label for="email">E-mail</label>
+        <form action="https://wa.me/5511996748683" id="contato-whatsapp">
+          <label for="nome">Nome</label>
           <input
-            type="email"
-            id="email"
-            placeholder="Digite seu e-mail"
+            type="text"
+            id="nome"
+            placeholder="Digite seu nome completo"
             required/>
 
-          <label for="telefone">Telefone</label>
-          <input
-            type="tel"
-            id="telefone"
-            placeholder="Digite seu número de telefone"
-            pattern="[0-9]{11}"
-            required/>
+            <label for="categoria" id="categoria">Categoria</label>
+            <select id="categoria" required>
+                <option>Selecione uma categoria</option>    
+                <option value="suporte">Suporte</option>
+                <option value="cotacao">Manutenção</option>
+                <option value="outros">Outros</option>
+            </select>
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" required></textarea>
 
-          <button type="submit" id="enviar">Enviar</button>
+          <input type="hidden" name="text" value="" id="mensagem-completa" >
+        <button type="button" id="enviar" onclick="enviarMensagem()">Enviar mensagem</button>
         </form>
+
       </section>
     </main>
 

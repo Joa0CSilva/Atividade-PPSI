@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../css/contato.css"/>
     <link rel="icon" type="image/png" href="../icon/favicon.png">
 
+    <script src="../javascript/script.js"></script>
+
     <title>ConnectX</title>
   </head>
 
@@ -40,21 +42,18 @@
                     id="email"
                     required>
 
-                    <label for="telefone">Telefone</label>
-                    <input type="tel"
-                    id="telefone"
-                    pattern="[0-9]{11}"
-                    required>
-
-                    <label for="assunto">Assunto</label>
-                    <input type="text"
-                    id="assunto"
-                    required>
-
+                    <label for="categoria">Categoria</label>
+                    <select id="categoria" required>
+                        <option>Selecione uma categoria</option>    
+                        <option value="suporte">Suporte</option>
+                        <option value="cotacao">Manutenção</option>
+                        <option value="outros">Outros</option>
+                    </select>
                     <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" id="mensagem"></textarea>
+                    <textarea id="mensagem" required></textarea>
 
-                    <button type="submit" id="enviar">Enviar</button>
+                    <input type="hidden" name="text" value="" id="mensagem-completa" >
+                    <button type="button" id="enviar" onclick="enviarMensagem()">Enviar mensagem</button>
                 </form>
             </div>
         </section>

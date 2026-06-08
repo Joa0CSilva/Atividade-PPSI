@@ -171,7 +171,9 @@ form {
     flex-direction: column;
 }
 
-input {
+input,
+textarea,
+select {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 15px;
     
@@ -198,6 +200,7 @@ input:focus {
 
 label {
     display: block;
+    padding-bottom: 5px;
 }
 
 #enviar {
