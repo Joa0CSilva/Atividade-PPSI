@@ -236,15 +236,69 @@ footer a {
 
 /* Área Media Queries */
 
-/* Para deixar uma animação no botão
-#button:hover {
-    background-color: #CBD5E1;
-    transform: scale(1.05);
-}
-*/
 
-/* Trocar o ponteiro quando passa pelo botão
-#button {
-    cursor: pointer;
+
+@media (min-width: 1200px) {
+
+    header {
+        padding: 20px 60px;
+    }
+
+    .titulo {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    nav {
+        gap: 30px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .card-produto {
+        padding: 60px 100px;
+        gap: 50px;
+    }
+
+    .info h2 {
+        font-size: 2.5rem;
+    }
+
+    .info p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+
+    #sobre p {
+        max-width: 800px;
+        margin: 20px auto;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+
+    .produtos-grid {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .produto-card {
+        width: 300px;
+    }
+
+    form {
+        max-width: 700px;
+        margin: 0 auto;
+    }
 }
-*/
