@@ -183,6 +183,11 @@ button {
     .botoes-contato {
         gap: 25px;
     }
+    
+    .produto img {
+        width: 400px;
+        height: 400px;
+    }
 
     .produtos-grid {
         flex-direction: row;

@@ -1,64 +1,19 @@
-/* Geral */
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
-}
-
-/* Header */
-
-header {
-    background-color: #CBD5E1;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 15px 0;
-}
-
-.logo {
-    width: 30%;
-    height: auto;
-}
-
-/* Navegação */
-
-nav {
-    display: flex;
-    gap: 10px;
-    margin-right: 50px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #0F172A;
-    font-size: 15px;
-}
-
-nav a:hover {
-    color: #2563EB;
-}
-
 /* Produto */
 
 .produto img {
-    width: 45%;
+    width: 80%;
+    max-width: 300px;
     height: auto;
 }
 
 .card-produto {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 1px;
 
-    padding: 30px 0;
+    gap: 20px;
+    padding: 30px 20px;
 }
 
 .eletronico {
@@ -66,12 +21,13 @@ nav a:hover {
     color: #F8FAFC;
 }
 
-.eletronico .info {
-    text-align: right;
+.info {
+    width: 100%;
+    text-align: center;
 }
 
-.info {
-    width: 45%;
+.eletronico .info {
+    text-align: center;
 }
 
 /* Seção */
@@ -105,30 +61,12 @@ nav a:hover {
 
     background-color: #0F172A;
     color: #F8FAFC;
+
+    cursor: pointer;
 }
 
-/*Footer*/
-
-footer {
-    background-color: #0F172A;
-    color: #F8FAFC;
-
-    padding: 30px;
-
-    text-align: center;
-}
-
-footer nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-left: 50px;
-}
-
-footer a {
-    color: #F8FAFC;
-    text-decoration: none;
-    font-size: 15px;
+#btn:hover {
+    opacity: 0.9;
 }
 
 
@@ -136,15 +74,37 @@ footer a {
 
 /* Área Media Queries */
 
-/* Para deixar uma animação no botão
-#btn:hover {
-    background-color: #CBD5E1;
-    transform: scale(1.05);
-}
-*/
 
-/*
-#btn {
-    cursor: pointer;
+@media (min-width: 1200px) {
+
+    .card-produto {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+
+        gap: 40px;
+        padding: 30px 0;
+    }
+
+    .produto img {
+        width: 45%;
+        max-width: none;
+    }
+
+    .info {
+        width: 45%;
+    }
+
+    .produto img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .eletronico .info {
+        text-align: right;
+    }
+
+    #sobre {
+        padding: 30px 50px;
+    }
 }
-*/

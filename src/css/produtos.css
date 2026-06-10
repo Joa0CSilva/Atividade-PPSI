@@ -26,6 +26,11 @@ button {
     font-size: 15px;
 }
 
+button:hover {
+    transform: scale(1.05);
+    background-color: #f8fafc93;
+}
+
 /* Produtos */
 
 .produtos-grid {
@@ -63,15 +68,16 @@ button {
 
 /* Área do Media Queries */
 
-/* Para deixar uma animação no botão
-button:hover {
-    background-color: #CBD5E1;
-    transform: scale(1.05);
-}
-*/
+@media (min-width: 1200px) {
 
-/* Trocar o ponteiro quando passa pelo botão
-#button {
-    cursor: pointer;
+    .produtos-grid {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .produto-card {
+        width: 250px;
+    }
+
 }
-*/
