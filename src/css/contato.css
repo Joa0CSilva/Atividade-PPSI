@@ -10,34 +10,12 @@ button {
     font-size: 15px;
 }
 
-/* Informações */
-
-.informacoes {
-    background-color: #CBD5E1;
-
-    border-radius: 15px;
-
-    padding: 20px;
-    margin: 30px 0;
-
-    text-align: center;
-}
-
-.informacoes h3 {
-    color: #0F172A;
-
-    margin-top: 0;
-    margin-bottom: 20px;
-
-    font-size: 1.3rem;
-}
-
-.informacoes p {
-    margin: 10px 0;
-
-    color: #0F172A;
-
-    font-size: 15px;
+#linha {
+    background-color: #F8FAFC;
+    width: 339px;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 /* Seção */
@@ -160,13 +138,11 @@ label {
 
     textarea {
         min-height: 180px;
-        resize: vertical;
     }
 
     #enviar {
         font-size: 18px;
         padding: 12px 25px;
-        width: fit-content;
         align-self: center;
         cursor: pointer;
         transition: 0.3s;
@@ -174,5 +150,9 @@ label {
 
     #enviar:hover {
         transform: scale(1.05);
+    }
+
+    #linha {
+        width: 1519px;
     }
 }
