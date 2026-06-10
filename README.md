@@ -46,4 +46,4 @@ Este projeto foi construído puramente com as tecnologias web fundamentais:
 - [ ] Galeria de produtos organizada em Grid com efeitos de hover nos cards.
 - [ ] Menu de navegação (Header) e rodapé (Footer) consistentes em todas as páginas.
 
-💡 Desenvolvido com 💙 por [lucas dos santos martins e Joao carvalho](https://github.com)
+💡 Desenvolvido com 💙 por [Lucas dos Santos Martins e Joao Carvalho Silva](https://github.com)
