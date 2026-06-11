@@ -4,7 +4,8 @@
 
 🎨 **Identidade Visual (Paleta de Cores):**
 - Escuro / Fundo: `#0F172A` (Slate)
-- Destaque / Detalhes: `#9FD1FF` (Light Blue)
+- Elementos Claros: `#F8FAFC`
+- Cabeçalho / Elementos Secundários: `#CBD5E1`
 
 ---
 
@@ -13,6 +14,8 @@
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Páginas do Site](#-páginas-do-site)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Justificativa do Projeto](#-justificativa-do-projeto)
+- [Fontes das Imagens e Bancos de Mídia](#-fontes-das-imagens-e-bancos-de-mídia)
 
 ## 💻 Sobre o Projeto
 
@@ -31,6 +34,16 @@ O projeto é composto por 4 páginas principais interligadas:
 
 ---
 
+## 🎯 Justificativa do Projeto
+
+Optamos por focar em uma loja de eletrônicos situada no Centro de São Roque por ser um reflexo fiel do comércio de bairro do interior paulista. Diferente de grandes redes de e-commerce que já possuem marcas consolidadas nacionalmente, uma loja regional e menos conhecida enfrenta o desafio de gerar **credibilidade e confiança imediata** no visitante. Desenvolver este projeto nos permitiu praticar como a organização profissional das informações, a clareza no catálogo e o direcionamento ágil para o atendimento via WhatsApp podem validar o negócio e converter acessos em clientes reais da região.
+
+### Psicologia e Contraste da Identidade Visual (Escolha das Cores)
+A paleta de cores foi selecionada digitalmente para transmitir os valores fundamentais do segmento de tecnologia:
+* **O Azul Escuro/Ardósia (`#0F172A`):** Utilizado como base principal para conferir sobriedade, modernidade e uma atmosfera tecnológica ao layout, simulando o visual "modo escuro" (*dark mode*) bastante apreciado por consumidores de eletrônicos.
+* **O Cinza Claro (`#CBD5E1`) e Branco (`#F8FAFC`):** Aplicados nos textos, divisores e cabeçalho para gerar um alto contraste, assegurando uma leitura confortável e acessível tanto em telas de computadores quanto em dispositivos móveis.
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 Este projeto foi construído puramente com as tecnologias web fundamentais:
@@ -42,8 +55,19 @@ Este projeto foi construído puramente com as tecnologias web fundamentais:
 
 - [x] Navegação fluida entre as 4 páginas (Home, Sobre, Produtos e Contato).
 - [x] Design totalmente responsivo (adaptado para celulares, tablets e computadores).
-- [ ] Formulário de contato estruturado com validações nativas do HTML5.
-- [ ] Galeria de produtos organizada em Grid com efeitos de hover nos cards.
-- [ ] Menu de navegação (Header) e rodapé (Footer) consistentes em todas as páginas.
+- [x] Formulário de contato estruturado com validações nativas do HTML5.
+- [x] Galeria de produtos organizada em Grid com efeitos de hover nos cards.
+- [x] Menu de navegação (Header) e rodapé (Footer) consistentes em todas as páginas.
+
+---
+
+## 📸 Fontes das Imagens e Bancos de Mídia
+
+As imagens utilizadas neste projeto foram obtidas a partir de bancos de vetores e fotografias gratuitos com licença livre para uso não comercial, ou criadas/adaptadas pela própria equipe:
+
+* **Logotipo ConnectX:** Desenvolvido pela equipe utilizando ferramentas de design (ou adaptado de banco de ícones).
+* **Imagens de Produtos (Celulares, Notebooks, Caixas de Som):** Obtidas através do banco de imagens [Freepik](https://freepik.com) / [Unsplash](https://unsplash.com) *(substitua pelo banco real que usou)*.
+
+---
 
 💡 Desenvolvido com 💙 por [Lucas dos Santos Martins e Joao Carvalho Silva](https://github.com)
