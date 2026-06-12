@@ -6,34 +6,104 @@
     <meta
       name="description"
       content="A ConnectX oferece produtos, serviços e soluções de tecnologia, informática e conectividade no centro de São Roque - SP, com atendimento de qualidade e confiança."/>
-
     <link rel="stylesheet" href="./src/css/style.css"/>
     <link rel="stylesheet" href="./src/css/global.css">
     <link rel="icon" type="image/png" href="./src/icon/favicon.png">
-
     <script src="./src/javascript/script.js"></script>
-
-    <title>ConnectX</title>
+    <title>ConnectX - Eletrônicos e Tecnologia em São Roque</title>
   </head>
-
   <body id="inicio">
     <header>
       <img src="./src/images/logo.png" alt="ConnectX" class="logo"/>
-
-      <nav>
+      <nav aria-label="Navegação principal">
         <a href="./src/pages/sobre.html">Sobre</a>
         <a href="./src/pages/produtos.html">Produtos</a>
         <a href="./src/pages/contato.html">Contato</a>
       </nav>
     </header>
-
     <main>
-      <section class="produto">
+      <h1 class="sr-only">ConnectX - Soluções em Tecnologia e Eletrônicos</h1>
+      <section class="produto" aria-label="Categorias de produtos em destaque">
         <section class="card-produto celular">
-          <img
-            src="./src/images/celular.png"
-            alt="Celular"/>
-
+          <img src="./src/images/celular.png" alt="Smartphone moderno com tela estendida"/>
+          <div class="info">
+            <h2>Celulares</h2>
+            <p>Smartphones das melhores marcas, com modelos para todos os estilos e necessidades.</p>
+            <a href="./src/pages/produtos.html" class="botao-link botao-claro">Ver Mais Celulares</a>
+          </div>
+        </section>
+        <section class="card-produto notebook">
+          <div class="info">
+            <h2>Notebooks</h2>
+            <p>Equipamentos para estudo, trabalho e entretenimento, com desempenho e praticidade.</p>
+            <a href="./src/pages/produtos.html" class="botao-link botao-escuro">Ver Mais Notebooks</a>
+          </div>
+          <img src="./src/images/notebook.png" alt="Notebook aberto exibindo gráficos na tela"/>
+        </section>
+        <section class="card-produto outros">
+          <img src="./src/images/outros.png" alt="Acessórios eletrônicos variados como smartwatches e fones"/>
+          <div class="info">
+            <h2>Outros</h2>
+            <p>Fones, caixas de som, smartwatches e diversos acessórios para completar sua experiência.</p>
+            <a href="./src/pages/produtos.html" class="botao-link botao-claro">Ver Mais Acessórios</a>
+          </div>
+        </section>
+      </section>
+      <section id="sobre" aria-labelledby="titulo-missao">
+        <h2 id="titulo-missao" class="titulo">Missão</h2>
+        <p>Somos uma loja especializada em eletrônicos e tecnologia, oferecendo produtos de qualidade, atendimento personalizado e os melhores preços do mercado.</p>
+      </section>
+      <section id="produtos" aria-labelledby="titulo-produtos">
+        <h2 id="titulo-produtos" class="titulo">Produtos em Destaque</h2>
+        <p>Confira alguns dos nossos produtos em destaque.</p>
+        <div class="produtos-grid">
+          <div class="produto-card">
+            <img src="./src/images/celular-destaque.png" alt="Smartphone Samsung azul escuro">
+            <h3>Smartphones</h3>
+            <p>Modelos modernos para trabalho, estudo e lazer.</p>
+          </div>
+          <div class="produto-card">
+            <img src="./src/images/notebook-destaque.png" alt="Notebook Lenovo cinza prata">
+            <h3>Notebooks</h3>
+            <p>Desempenho e praticidade para o dia a dia.</p>
+          </div>
+          <div class="produto-card">
+            <img src="./src/images/caixa de som.png" alt="Caixa de som portátil bluetooth preta">
+            <h3>Caixas de Som</h3>
+            <p>Caixas de som de ótima qualidade para acalorar uma festa.</p>
+          </div>
+        </div>
+      </section>
+      <section id="contato" aria-labelledby="titulo-contato">
+        <h2 id="titulo-contato" class="titulo">Contato</h2>
+        <p class="texto-contato">Precisa de suporte, manutenção ou deseja solicitar um orçamento?</p>
+        <p class="texto-contato">Nossa equipe está pronta para ajudar você com as melhores soluções em tecnologia e conectividade.</p>
+        <div class="botoes-contato">
+          <a href="./src/pages/contato.html" class="botao-link botao-escuro">Página de Contato</a>
+          <a href="https://wa.me/5511996748683" target="_blank" rel="noopener noreferrer" class="botao-link botao-escuro" aria-label="Falar conosco via WhatsApp (abre em nova aba)">WhatsApp</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a href="#inicio" aria-label="Voltar para o início da página"><img src="./src/images/logo.png" alt="Logo ConnectX" class="logo"/></a>
+      <nav aria-label="Navegação do rodapé">
+        <a href="./src/pages/sobre.html">Sobre</a>
+        <a href="./src/pages/produtos.html">Produtos</a>
+        <a href="./src/pages/contato.html">Contato</a>
+      </nav>
+      <div id="linha"></div>
+      <section aria-label="Informações de contato e institucionais">
+        <h3>Informações da Loja</h3>
+        <p><span aria-hidden="true">📍</span> Centro de São Roque - SP</p>
+        <p><span aria-hidden="true">📞</span> Telefone: (11) 99526-8134</p>
+        <p><span aria-hidden="true">✉</span> E-mail: contato@connectx.com.br</p>
+        <p><span aria-hidden="true">🕒</span> Horário: Segunda a Sexta das 09h às 18h</p>
+        <p>ConnectX Comércio de Eletrônicos LTDA</p>
+        <p>CNPJ: 7Z.L7R.J49/0001-31</p>
+      </section>
+    </footer>
+  </body>
+</html>
           <div class="info">
             <h2>Celulares</h2>
 
