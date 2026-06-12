@@ -66,7 +66,7 @@ Este projeto foi construído puramente com as tecnologias web fundamentais:
 As imagens utilizadas neste projeto foram obtidas a partir de bancos de vetores e fotografias gratuitos com licença livre para uso não comercial, ou criadas/adaptadas pela própria equipe:
 
 * **Logotipo ConnectX:** Desenvolvido pela equipe utilizando ferramentas de design (ou adaptado de banco de ícones).
-* **Imagens de Produtos (Celulares, Notebooks, Caixas de Som):** Obtidas através da criação por IA)*.
+* **Imagens de Produtos (Celulares, Notebooks, Caixas de Som):** Obtidas através da criação por IA*.
 
 ---
 
