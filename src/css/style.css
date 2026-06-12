@@ -1,9 +1,22 @@
-/* Produtos principais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
 
 .produto img {
     width: 45%;
     height: auto;
-
     margin-top: 30px;
 }
 
@@ -12,7 +25,6 @@
     align-items: flex-start;
     justify-content: center;
     gap: 1px;
-
     padding: 30px 0;
 }
 
@@ -33,6 +45,151 @@
 
 .notebook .info {
     text-align: left;
+}
+
+.info {
+    width: 45%;
+}
+
+.botao-link {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 15px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.botao-claro {
+    background-color: #F8FAFC;
+    color: #0F172A;
+}
+
+.botao-escuro {
+    background-color: #0F172A;
+    color: #F8FAFC;
+}
+
+.botao-link:hover,
+.botao-link:focus {
+    transform: scale(1.05);
+    outline: 2px solid #38BDF8;
+}
+
+#sobre,
+#produtos,
+#contato {
+    padding: 30px 50px;
+}
+
+.titulo {
+    text-align: center;
+    background-color: #0F172A;
+    color: #F8FAFC;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+#produtos {
+    text-align: center;
+}
+
+.produtos-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.produto-card {
+    background-color: #0F172A;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.produto-card p {
+    color: #F8FAFC;
+}
+
+.produto-card img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+}
+
+.produto-card h3 {
+    margin: 10px 0 5px;
+    color: #F8FAFC;
+}
+
+#contato {
+    text-align: center;
+}
+
+.texto-contato {
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.7;
+}
+
+.botoes-contato {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px) {
+    .card-produto {
+        padding: 60px 100px;
+        gap: 50px;
+    }
+
+    .info h2 {
+        font-size: 2.5rem;
+    }
+
+    .info p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+
+    #sobre p {
+        max-width: 800px;
+        margin: 20px auto;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    .botao-link {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+
+    .texto-contato {
+        font-size: 1.2rem;
+    }
+
+    .botoes-contato {
+        gap: 25px;
+    }
+    
+    .produto img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .produtos-grid {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .produto-card {
+        width: 300px;
+    }
 }
 
 .info {
